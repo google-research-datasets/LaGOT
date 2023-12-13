@@ -40,6 +40,7 @@ To reproduce the numbers in the paper:
 
 ``
 TRACKERS_TO_EVAL=<which trackers you want to evaluate>
+
 python scripts/run_mot_challenge.py --USE_PARALLEL False --METRICS HOTA CLEAR Identity --BENCHMARK LaGOT --SPLIT_TO_EVAL val --DO_PREPROC False --GT_FOLDER $PATH_EVAL/lagot_motchallenge_format/data/gt/mot_challenge --TRACKERS_FOLDER $PATH_EVAL/lagot_motchallenge_format/data/trackers/mot_challenge/ --OUTPUT_FOLDER $PATH_TO_RESULTS/results/ --TRACKERS_TO_EVAL TRACKERS_TO_EVAL
 ``
 
