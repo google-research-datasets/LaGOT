@@ -1,6 +1,6 @@
 # LaGOT
 
-We release LaGOT evaluation benchmark for both SOT and MOT / OWT trackers.
+We release LaGOT evaluation benchmark for both single-object trackers (SOT) and multi-object trackers (MOT) / open-world trackers (OWT).
 
 LaGOT benchmark is built on top of LaSOT validation set. We added up to 9
 additional tracks to the LaSOT validation set.
@@ -9,15 +9,15 @@ additional tracks to the LaSOT validation set.
 ## Download
 
 Additional annotations are located in `data/`.
-To obtain pixels, please follow the instructions of the LaSOT official
-repository. 
+To obtain pixels, please follow the instructions of the [LaSOT official
+repository](https://vision.cs.stonybrook.edu/~lasot/download.html). 
 
 In addition to the new annotations, we also release the inference results of
 multiple state-of-art SOT and MOT / OWT trackers.
 
 ## Usage
 
-The evaluation scripts are located in `scripts\`.
+The evaluation scripts and scripts for results visualizations are located in `scripts/`.
 
 ## Citation
 
