@@ -17,7 +17,8 @@ multiple state-of-art SOT and MOT / OWT trackers.
 
 ## Usage
 
-The evaluation scripts and scripts for results visualizations are located in `scripts/`.
+The scripts for results visualizations are located in `scripts/`.
+To use those [pytracking toolbox](https://github.com/visionml/pytracking) and/or [TrackEval toolbox](https://github.com/JonathonLuiten/TrackEval) is needed.
 
 ## Citation
 
