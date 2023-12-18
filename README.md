@@ -5,6 +5,8 @@ We release LaGOT evaluation benchmark for both single-object trackers (SOT) and 
 LaGOT benchmark is built on top of LaSOT validation set. We added up to 9
 additional tracks to the LaSOT validation set.
 
+![LaGOT teaser](.imgs/dataset_teaser.png?raw=true "LaGOT dataset")
+
 
 ## Download
 
