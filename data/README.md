@@ -1,7 +1,7 @@
 # LaGOT groundtruth
 
-This directory contains LaGOT groundtruth annotations in two formats (for SOT
-evaluation and MOT evaluation) as well as trackers inference results (for the
+This directory contains the LaGOT groundtruth annotations in two formats (for SOT
+evaluation and MOT evaluation) as well as the inference results of different trackers (for the
 trackers published in WACV'24 paper) on LaGOT in
 the corresponding formats.
 
@@ -9,7 +9,7 @@ the corresponding formats.
 
 We provide inference results for the following trackers: 
 
-- DiMP (and its variations) [SOT]
+- DiMP/PrDiMP/SuperDiMP [SOT]
 - KeepTrack [SOT]
 - MixFormer [SOT]
 - Stark [SOT]
@@ -24,7 +24,7 @@ We provide inference results for the following trackers:
 For computing SOT metrics, first unpack lagot_got_sot_format.zip into
 `$PATH_EVAL`.
 
-Install and setup pytracking framework (in particular, result location should be set correctly) from [GitHub](https://github.com/visionml/pytracking/tree/master).
+Install and setup the pytracking framework (in particular, result location should be set correctly) from [GitHub](https://github.com/visionml/pytracking/tree/master).
 
 To reproduce the numbers and plots in the paper:
 
@@ -36,7 +36,7 @@ python scripts/lagot_plots.py
 
 ## MOT evaluation on LaGOT
 
-For computing MOT metrics install TrackEval toolbox from [GitHub](https://github.com/JonathonLuiten/TrackEval)
+For computing MOT metrics install the TrackEval toolbox from [GitHub](https://github.com/JonathonLuiten/TrackEval)
 
 Unpack lagot_motchallenge_format.zip into `$PATH_EVAL`.
 

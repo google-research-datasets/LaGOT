@@ -1,5 +1,5 @@
-# Make sure the lagotdataset.py uses the annotations 'LaGOT_one_object_per_sequence_annotations_final.json'
-# and that the result_path in the local.py file uses tamos_results_new
+# Make sure the pytracking/pytracking/evaluation/lagotdataset.py uses the annotations 'LaGOT_one_object_per_sequence_annotations_final.json'
+# and that the result_path in the pytracking/pytracking/evaluation/local.py file points to the raw result folder.
 
 import matplotlib.pyplot as plt
 plt.rcParams['figure.figsize'] = [8, 5]
